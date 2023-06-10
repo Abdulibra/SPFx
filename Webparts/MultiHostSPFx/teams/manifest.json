@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.8",
+  "packageName": "SpFxBeyondSpWebPart",
+  "id": "72a4242f-98fb-49d2-9930-1c5b92d60d1c",
+  "version": "1.0",
+  "developer": { 
+    "name": "Abdullahi Ahmed",
+    "websiteUrl": "https://devtest2019.sharepoint.com/sites/SPFxNews",
+    "mpnId": "",
+    "privacyUrl": "https://devtest2019.sharepoint.com/sites/SPFxNews",
+    "termsOfUseUrl": "https://devtest2019.sharepoint.com/sites/SPFxNews"
+   },
+  "name": {
+    "short": "SpFxBeyondSpWebPart",
+    "full": ""
+  },
+  "description": {
+    "short": "SpFxBeyondSpWebPart",
+    "full": "SpFxBeyondSpWebPart"
+  },
+  "icons": {
+    "outline": "72a4242f-98fb-49d2-9930-1c5b92d60d1c_outline.png",
+    "color": "72a4242f-98fb-49d2-9930-1c5b92d60d1c_color.png"
+  },
+  "accentColor": "#004578",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://{teamSiteDomain}/_layouts/15/TeamsLogon.aspx?SPFX=true&dest=/_layouts/15/teamshostedapp.aspx%3Fteams%26componentId=72a4242f-98fb-49d2-9930-1c5b92d60d1c",
+      "canUpdateConfiguration": false,
+      "scopes": [
+        "team",
+        "groupchat"
+      ],
+      "context": [
+        "channelTab",
+        "privateChatTab",
+        "meetingSidePanel",
+        "meetingDetailsTab",
+        "meetingChatTab"
+      ]
+    }
+  ],
+  "validDomains": [
+    "*.login.microsoftonline.com",
+    "*.sharepoint.com",
+    "resourceseng.blob.core.windows.net"
+  ],
+  "webApplicationInfo": {
+    "resource": "https://{teamSiteDomain}",
+    "id": "00000003-0000-0ff1-ce00-000000000000"
+  }
+}

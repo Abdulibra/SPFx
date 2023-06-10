@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.16.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.3",
+    "libraryName": "sp-fx-multiple-hosts",
+    "libraryId": "f2174cbd-a41b-425a-8792-08e0ad2a2027",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "SPFxMultipleHosts",
+    "solutionShortDescription": "SPFxMultipleHosts description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

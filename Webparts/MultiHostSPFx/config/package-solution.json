@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-fx-multiple-hosts-client-side-solution",
+    "id": "f2174cbd-a41b-425a-8792-08e0ad2a2027",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": { 
+    "name": "Abdullahi Ahmed",
+    "websiteUrl": "https://devtest2019.sharepoint.com/sites/SPFxNews",
+    "mpnId": "Undefined-1.17.3",
+    "privacyUrl": "https://devtest2019.sharepoint.com/sites/SPFxNews",
+    "termsOfUseUrl": "https://devtest2019.sharepoint.com/sites/SPFxNews"
+   },
+    "metadata": {
+      "shortDescription": {
+        "default": "SPFxMultipleHosts description"
+      },
+      "longDescription": {
+        "default": "SPFxMultipleHosts description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sp-fx-multiple-hosts Feature",
+        "description": "The feature that activates elements of the sp-fx-multiple-hosts solution.",
+        "id": "fad1244d-6eb8-47f5-b62d-86bdcf32916b",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-fx-multiple-hosts.sppkg"
+  }
+}

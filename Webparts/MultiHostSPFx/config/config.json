@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-fx-beyond-sp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spFxBeyondSp/SpFxBeyondSpWebPart.js",
+          "manifest": "./src/webparts/spFxBeyondSp/SpFxBeyondSpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpFxBeyondSpWebPartStrings": "lib/webparts/spFxBeyondSp/loc/{locale}.js"
+  }
+}
