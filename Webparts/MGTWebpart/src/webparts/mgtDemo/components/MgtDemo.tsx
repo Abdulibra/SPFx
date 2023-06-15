@@ -1,8 +1,8 @@
 import * as React from 'react';
 import styles from './MgtDemo.module.scss';
 import { IMgtDemoProps } from './IMgtDemoProps';
-import { Person, TeamsChannelPicker } from '@microsoft/mgt-react/dist/es6/spfx';
-import { MgtTeamsChannelPicker, ViewType } from '@microsoft/mgt-spfx';
+import { Person } from '@microsoft/mgt-react/dist/es6/spfx';
+import { ViewType } from '@microsoft/mgt-spfx';
 
 const MgtDemo: React.FC<IMgtDemoProps> = (props) => {
   const {
@@ -21,7 +21,6 @@ const MgtDemo: React.FC<IMgtDemoProps> = (props) => {
       </div>
       <div>
         <Person personQuery='me' view={ViewType.threelines} />
-        <TeamsChannelPicker templateContext={MgtTeamsChannelPicker} />
 
       </div>
     </section>
